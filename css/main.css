@@ -968,8 +968,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-.container.footer-page {
+.footer-page .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -998,11 +997,10 @@ body {
 .footer-nav__item {
   margin-bottom: 9px;
 }
-
-.footer-nav__mail:hover,
-.footer-nav__tel:hover,
-.footer-nav__mail:focus,
-.footer-nav__tel:focus {
+.footer-nav__item .footer-nav__mail:hover,
+.footer-nav__item .footer-nav__tel:hover,
+.footer-nav__item .footer-nav__mail:focus,
+.footer-nav__item .footer-nav__tel:focus {
   color: #188CE8;
 }
 
@@ -1041,8 +1039,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-
-.footer__logo {
+.footer__prelogo .footer__logo {
   color: #ffffff;
   font-family: "Raleway";
   font-weight: 700;

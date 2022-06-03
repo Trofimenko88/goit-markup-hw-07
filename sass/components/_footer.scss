@@ -2,12 +2,14 @@
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+    &
+    .container{
+      display: flex;
+      align-items: baseline;
+      padding: 0;
+    }
   }
-  .container.footer-page {
-    display: flex;
-    align-items: baseline;
-    padding: 0;
-  }
+  
   /*Footer adress*/
   
   
@@ -28,14 +30,15 @@
   
   .footer-nav__item {
   margin-bottom: 9px;
-  }
-  
+  &
   .footer-nav__mail:hover,
   .footer-nav__tel:hover, 
   .footer-nav__mail:focus,
   .footer-nav__tel:focus {
-  color: #188CE8;
+  color: #188CE8; }
   }
+  
+  
   
   .geolocation {
   font-family: Roboto;
@@ -72,20 +75,17 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    &
+    .footer__logo {
+      color: #ffffff;
+    
+      font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;}  
   }
-  
-  .footer__logo {
-    color: #ffffff;
-  
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  }
-  
-  
-  
+   
   .footer-social {
     margin-left: 70px;
   }
@@ -122,6 +122,7 @@
   .footer-social-list__icon {
     fill: #FFFFFF;
   }
+  
   .footer-social-list__button:hover,
   .footer-social-list__button:focus {
     background-color: #2196F3;
